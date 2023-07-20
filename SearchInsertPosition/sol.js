@@ -8,7 +8,6 @@ var searchInsert = function (nums, target) {
   let min = 0
   let max = nums.length - 1
   while (min <= max) {
-    console.log(idx, min, max)
     if (nums[idx] === target) {
       return idx
     } else if (nums[idx] > target) {
